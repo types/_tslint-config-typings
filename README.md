@@ -1,6 +1,6 @@
 # tslint-config-typings
 
-[`tslint`](https://github.com/palantir/tslint) extension pacakge that follows[`authoring typings guidelines`](https://github.com/unional/typescript/blob/master/style-guide/typings/README.md)
+[`tslint`](https://github.com/palantir/tslint) extension package that follows[`authoring typings guidelines`](https://github.com/unional/typescript/blob/master/style-guide/typings/README.md)
 
 ## Usage
 ```sh
