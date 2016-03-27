@@ -24,6 +24,9 @@
     "typedef-whitespace": [
       false
     ],
+    "variable-name": [
+      false
+    ],
     "whitespace": [
       false
     ]

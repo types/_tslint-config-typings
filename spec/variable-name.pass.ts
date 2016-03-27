@@ -1,3 +1,5 @@
-/* tslint:disable no-unused-variable */
+/* tslint:disable:no-unused-variable */
 
-var PascalCase: {}
+const PascalCase = {
+  PascalCase: 1,
+};

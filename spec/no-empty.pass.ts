@@ -1,3 +1,3 @@
-/* tslint:disable no-unused-variable */
+/* tslint:disable:no-unused-variable */
 
 function foo() { }
