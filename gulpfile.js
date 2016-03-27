@@ -1,18 +1,24 @@
 var gulp = require('gulp');
+var lint = require('tslint');
 var tslint = require('gulp-tslint');
 var through = require('through');
 var gutil = require('gulp-util');
 var PluginError = gutil.PluginError;
 
+var config = lint.loadConfigurationFromPath('tslint.json');
 gulp.task('tslint-positive', function() {
   return gulp.src('spec/*.pass.ts')
-    .pipe(tslint())
+    .pipe(tslint({
+      configuration: config
+    }))
     .pipe(tslint.report('verbose'));
 });
 
 gulp.task('tslint-negative', function() {
   return gulp.src('spec/*.fail.ts')
-    .pipe(tslint())
+    .pipe(tslint({
+      configuration: config
+    }))
     .pipe((function() {
       var hasError = false;
       return through(function(file) {
