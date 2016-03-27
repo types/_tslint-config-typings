@@ -1,5 +1,5 @@
 {
-  "extends": "unional",
+  "extends": "tslint-config-unional",
   "rules": {
     "no-empty": false,
     "no-internal-module": true,

@@ -30,7 +30,7 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-tslint": "^4.3.3",
-    "tslint": "^3.6.0",
+    "tslint": "git+https://github.com/unional/tslint.git",
     "typescript": "^1.8.9"
   }
 }
