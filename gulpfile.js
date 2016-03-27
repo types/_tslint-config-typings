@@ -6,17 +6,13 @@ var PluginError = gutil.PluginError;
 
 gulp.task('tslint-positive', function() {
   return gulp.src('spec/*.pass.ts')
-    .pipe(tslint({
-      rulesDirectory: "node_modules/tslint-eslint-rules/dist/rules"
-    }))
+    .pipe(tslint())
     .pipe(tslint.report('verbose'));
 });
 
 gulp.task('tslint-negative', function() {
   return gulp.src('spec/*.fail.ts')
-    .pipe(tslint({
-      rulesDirectory: "node_modules/tslint-eslint-rules/dist/rules"
-    }))
+    .pipe(tslint())
     .pipe((function() {
       var hasError = false;
       return through(function(file) {
