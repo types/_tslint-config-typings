@@ -1,11 +1,11 @@
-var gulp = require('gulp');
-var lint = require('tslint');
-var tslint = require('gulp-tslint');
-var through = require('through');
-var gutil = require('gulp-util');
-var PluginError = gutil.PluginError;
+const gulp = require('gulp');
+const lint = require('tslint');
+const tslint = require('gulp-tslint');
+const through = require('through');
+const gutil = require('gulp-util');
+const PluginError = gutil.PluginError;
 
-var config = lint.loadConfigurationFromPath('tslint.json');
+var config = lint.findConfiguration();
 gulp.task('tslint-positive', function() {
   return gulp.src('spec/*.pass.ts')
     .pipe(tslint({

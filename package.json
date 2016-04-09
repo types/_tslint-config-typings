@@ -22,15 +22,17 @@
   },
   "homepage": "https://github.com/typings/tslint-config-typings",
   "peerDependencies": {
-    "tslint": ">=3.5.0"
+    "tslint": ">=3.7.0"
   },
   "dependencies": {
-    "tslint-config-unional": "^0.2.0"
+    "tslint-config-unional": "^0.2.2"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-tslint": "^4.3.3",
-    "tslint": "github:unional/tslint",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1",
+    "tslint": "^3.7.1",
     "typescript": "^1.8.9"
   }
 }
