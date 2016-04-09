@@ -3,6 +3,9 @@
   "version": "0.2.1",
   "description": "tslint config for writing typings",
   "main": "tslint.json",
+  "files": [
+    "tslint.json"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/typings/tslint-config-typings"
@@ -25,7 +28,7 @@
     "tslint": ">=3.7.0"
   },
   "dependencies": {
-    "tslint-config-unional": "^0.2.2"
+    "tslint-config-unional": "^0.2.3"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -33,6 +36,7 @@
     "gulp-util": "^3.0.7",
     "through2": "^2.0.1",
     "tslint": "^3.7.1",
+    "tslint-config-unional": "^0.2.3",
     "typescript": "^1.8.9"
   }
 }
