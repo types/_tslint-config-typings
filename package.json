@@ -6,6 +6,9 @@
   "files": [
     "tslint.json"
   ],
+  "scripts": {
+    "test": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/typings/tslint-config-typings"
