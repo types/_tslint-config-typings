@@ -11,10 +11,7 @@ npm install tslint-config-typings
 ```js
 // tslint.json
 {
-  "extends": "tslint-config-typings",
-  "rules": {
-    // your customization
-  }
+  "extends": "tslint-config-typings"
 }
 ```
 
