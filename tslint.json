@@ -7,21 +7,18 @@
     "no-require-imports": false,
     "no-string-literal": true,
     "object-literal-sort-keys": false,
-    "member-ordering": [false],
+    "member-ordering": [
+      false
+    ],
     "no-arg": false,
     "no-console": [
-      true,
-      "assert",
-      "count",
-      "log",
-      "warn",
-      "trace",
-      "error",
-      "debug"
+      false
     ],
     "no-inferrable-types": false,
     "no-unused-expression": false,
-    "typedef": [false],
+    "typedef": [
+      false
+    ],
     "typedef-whitespace": [
       false
     ],
