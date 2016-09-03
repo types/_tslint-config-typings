@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-typings",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "tslint config for writing typings",
   "main": "tslint.json",
   "files": [
