@@ -15,6 +15,7 @@
       false
     ],
     "no-inferrable-types": false,
+    "no-shadowed-variable": false,
     "no-unused-expression": false,
     "typedef": [
       false

@@ -13,4 +13,4 @@ node_js:
   - "stable"
 
 script:
-  - npm run verify
+  - npm run test
