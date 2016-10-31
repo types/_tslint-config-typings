@@ -31,15 +31,15 @@
     "tslint": ">=3.7.0"
   },
   "dependencies": {
-    "tslint-config-unional": "^0.2.3"
+    "tslint-config-unional": "^0.5.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-tslint": "^4.3.3",
+    "gulp-tslint": "^6.1.2",
     "gulp-util": "^3.0.7",
     "through2": "^2.0.1",
     "tslint": "^3.7.1",
-    "tslint-config-unional": "^0.2.3",
-    "typescript": "^1.8.9"
+    "tslint-config-unional": "^0.5.0",
+    "typescript": "^2.0.6"
   }
 }
