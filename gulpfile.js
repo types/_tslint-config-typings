@@ -12,6 +12,7 @@ gulp.task('tslint-positive', function() {
       configuration: config,
       formatter: 'verbose'
     }));
+    .pipe(tslint.report());
 });
 
 gulp.task('tslint-negative', function() {
