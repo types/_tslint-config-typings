@@ -9,9 +9,9 @@ var config = lint.findConfiguration();
 gulp.task('tslint-positive', function() {
   return gulp.src('spec/*.pass.ts')
     .pipe(tslint({
-      configuration: config
-    }))
-    .pipe(tslint.report('verbose'));
+      configuration: config,
+      formatter: 'verbose'
+    }));
 });
 
 gulp.task('tslint-negative', function() {
