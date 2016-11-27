@@ -28,6 +28,7 @@
     ],
     "whitespace": [
       false
-    ]
+    ],
+    "brace-style": [false]
   }
 }
