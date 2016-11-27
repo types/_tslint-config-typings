@@ -5,7 +5,7 @@
     "no-empty": false,
     "no-internal-module": true,
     "no-require-imports": false,
-    "no-string-literal": true,
+    "no-string-literal": false,
     "object-literal-sort-keys": false,
     "member-ordering": [
       false
@@ -14,7 +14,7 @@
     "no-console": [
       false
     ],
-    "no-inferrable-types": false,
+    "no-inferrable-types": [false],
     "no-shadowed-variable": false,
     "no-unused-expression": false,
     "typedef": [
