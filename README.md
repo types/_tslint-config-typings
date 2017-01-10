@@ -3,6 +3,7 @@
 [`tslint`](https://github.com/palantir/tslint) extension package that follows[`authoring typings guidelines`](https://github.com/unional/typescript-guidelines/tree/master/pages/typings)
 
 ## Usage
+
 ```sh
 # Install
 npm install tslint-config-typings
@@ -16,4 +17,5 @@ npm install tslint-config-typings
 ```
 
 ## LICENSE
+
 MIT
